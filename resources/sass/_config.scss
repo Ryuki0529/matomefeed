@@ -1,0 +1,89 @@
+@charset "utf-8";
+/* webフォント「Noto Serif JP」 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Noto+Sans+JP:wght@400;700&display=swap');
+/* fontawesomeの読み込み */
+@import url('https://use.fontawesome.com/releases/v5.5.0/css/all.css');
+// Variables
+@import 'variables';
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: $body-bg;
+    color: $body-font-color;
+    font-family: 'Lato', "Noto Sans JP", "Meiryo", "Hiragino Kaku Gothic ProN",
+                "Hiragino Kaku Gothic Pro", "Noto Sans Japanese", sans-serif;
+    font-size: 12pt;
+    font-weight: 1;
+    line-height: 1.6;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 1200px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 { font-size: 24pt; font-weight: normal; }
+h2 { font-size: 18pt; font-weight: normal; }
+h3 { font-size: 15pt; font-weight: normal; }
+
+a { text-decoration: none; color: $body-font-color; }
+ul { list-style: none; }
+
+// ベースのflexbox
+@mixin flexbese($ac:stretch, $ai:normal, $jc:center) {
+    display: flex;
+    align-content: $ac;
+    align-items: $ai;
+    justify-content: $jc;
+    flex-flow: row wrap;
+    width: 100%;
+}
+
+// ベースのメディアクエリ
+$pc: 1025px; // PC
+$tab: 1024px; // タブレット
+$sp: 599px;  // スマホ
+
+@mixin pc {
+    @media (max-width: ($pc)) {
+        @content;
+    }
+}
+@mixin tab {
+    @media (max-width: ($tab)) {
+        @content;
+    }
+}
+@mixin sp {
+    @media (max-width: ($sp)) {
+        @content;
+    }
+}
+
+// Vue.js アニメーション設定
+.items-leave-active,
+.items-enter-active {
+    transition: opacity 0.7s, transform 0.7s ease;
+}
+.items-leave-to,
+.items-enter {
+    opacity: 0;
+    transform: translateY(50px);
+}
+.items-leave,
+.items-enter-to {
+    opacity: 1;
+}
+.items-move {
+    transition: transform 0.7s;
+}
