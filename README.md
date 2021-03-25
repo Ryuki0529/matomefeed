@@ -10,7 +10,7 @@ URL：<a href="https://matomefeed.com/" target="_blank">matomefeed.com</a>
 
 ##キャプチャー
 <strong>記事のローディング</strong>
-<img src="capture1" alt="記事のロード画面">
+<img src="capture1.png" alt="記事のロード画面">
 <br/>
 <strong>記事の一覧</strong>
-<img src="capture2" alt="記事の一覧">
+<img src="capture2.png" alt="記事の一覧">
