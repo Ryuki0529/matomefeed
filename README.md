@@ -8,13 +8,13 @@ URL：<a href="https://matomefeed.com/" target="_blank">matomefeed.com</a>
 </p>
 <p>当Webアプリはプログラミングの学習も兼ねて制作を進めました。</p>
 
-##仕様技術
-・インフラ：VPS（CentOS7.8）
-・Webサーバー：Nginx
-・主要言語：PHP、JavaScript
+### 仕様技術
+・インフラ：VPS（CentOS7.8）<br/>
+・Webサーバー：Nginx<br/>
+・主要言語：PHP、JavaScript<br/>
 ・フレームワーク：Laravel、Vue.js
 
-##キャプチャー
+### キャプチャー
 <strong>記事のローディング</strong>
 <img src="capture1.png" alt="記事のロード画面">
 <br/>
