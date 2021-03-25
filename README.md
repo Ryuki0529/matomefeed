@@ -6,3 +6,11 @@ URL：<a href="https://matomefeed.com/" target="_blank">matomefeed.com</a>
   アカウント登録することで、オリジナルのフィルターを作って記事を絞り込んだり、
   お気に入りのまとめサイトを登録できます。
 </p>
+<p>当Webアプリはプログラミングの学習も兼ねて制作を進めました。</p>
+
+##キャプチャー
+<strong>記事のローディング</strong>
+<img src="capture1" alt="記事のロード画面">
+<br/>
+<strong>記事の一覧</strong>
+<img src="capture2" alt="記事の一覧">
