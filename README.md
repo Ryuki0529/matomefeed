@@ -1,4 +1,4 @@
-## MATOMEfeed（製作途中）
+## MATOMEfeed（制作途中）
 URL：<a href="https://matomefeed.com/" target="_blank">matomefeed.com</a>
 <p>
   数多く存在する5ch・Twitterまとめサイトを集約し、画像付きのリッチなUIで配信します。
